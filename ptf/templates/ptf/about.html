@@ -1,0 +1,15 @@
+{% extends 'ptf/basik.html'%}
+{%block title%}ABOUT{%endblock%}
+{%block body%}
+{%load static%}
+<section class="about_container") >
+
+           {%for i in abot%}
+            <div id="detail">
+            <img src='/media/{{i.image}}' alt="">
+              <p>{{i.brief}}<br>Skills:{{i.education}}</p>
+            {%endfor%}
+
+
+</section>
+{%endblock%}

@@ -1,0 +1,19 @@
+.about_container{
+margin:100px;
+padding:0px;
+  }
+#detail{
+display:flex;
+}
+
+#detail img{
+      width:200px;
+      height:200px;
+      margin-bottom:5px;
+      border-radius:50%;}
+#detail p{
+font-size:20px;
+color:orange;
+font-family:cursive;
+padding:2px;
+margin-left:30px;}

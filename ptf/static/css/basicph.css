@@ -1,0 +1,20 @@
+.about_container{
+margin:100px 1px 1px 1px;
+padding:0px;
+
+  }
+#detail{
+display:flex;
+flex-direction:column;
+}
+
+img{
+width:310px;
+height:200px;
+margin:1px auto;
+}
+#detail p{
+font-size:20px;
+color:red;
+margin:30px 5px 5px 5px;
+padding:2px;}

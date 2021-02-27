@@ -1,0 +1,109 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link type="text/css" rel="stylesheet" href="{% static 'css/styl.css' %}">
+    <link type="text/css" rel="stylesheet" href="{% static 'css/basics.css' %}">
+    <link type="text/css" rel="stylesheet" media="screen and (max-width:750px)" href="{% static 'css/phon.css' %}">
+    <link type="text/css" rel="stylesheet" media="screen and (max-width:750px)" href="{% static 'css/basicph.css' %}">
+   <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <title>{%block title%} {%endblock%}</title>
+   <link rel = "icon" href="{%static 'ptf/k.jpg'%}"  type="image/x-icon>
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+</head>
+{%load static%}
+<body style="overflow:visible; ">
+
+<div class="frontimg" style="background: url('{% static "ptf/bac.jpg" %}') no-repeat center center/cover;">
+<div class="container ">
+    <header>
+    <nav class="navbar">
+        <div class="navbarbrand">
+            <img src="{%static 'ptf/k.jpg'%}">
+            <div><a href="#">Arshad hassan</a></div>
+        </div>
+       <div id="nbar"><ul>
+          <li><a href="/ptf/">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="/ptf/about">About</a></li>
+           <li class="dropdown"><a href="#">Pages</a><li>
+
+          <li><a href="">Contact</a></li>
+
+       </ul></div>
+    </nav>
+</header>
+    {%block body%}{%endblock%}
+
+
+
+
+
+</div>
+    <footer style="color:grey; ">
+    <section style="display:flex;font-family:cursive;"class="foot">
+    <div >
+            <h1>About me</h1>
+            <ul>
+             <li>Hello my name is</li>
+             <li>MD ARSHAD HASSAN</li>
+             <li>CLICK</li>
+             </ul>
+
+    </div>
+    <div>
+            <h1>Services</h1>
+            <ul >
+             <li>Webdesign</li>
+             <li>webdeveloper</li>
+             <li>Android developer</li>
+
+        </ul>
+
+    </div>
+    <div>
+            <h1>Contact</h1>
+            <ul >
+             <li>Md Arshad hassan</li>
+             <li>Mob:</li>
+             <li>9006796968</li>
+             <li>6201855196</li>
+        </ul>
+        </div>
+    <div>
+            <h1>Email</h1>
+            <ul>
+             <li>
+                 <form id="frm" >
+                     <input type="text" id="email" placeholder="Enter email">
+                     <button type="submit" id="fbtn">subscribe</button>
+                       </form>
+             </li>
+
+        </ul>
+        </div>
+        </section>
+
+     <div id="icon">
+    <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+<a href="" class="fa fa-twitter"></a>
+<a href="https://www.linkedin.com/in/md-arshad-hassan-4528a4162" class="fa fa-linkedin"></a>
+<a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+<a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+  </div>
+<hr style="color:grey">
+    <p style="font-size:3rem; color:grey">&copy;All copyright reserverd 2020 www.arshadhassan.com</p>>
+    </div>
+
+</footer>
+
+</body>
+</html>
